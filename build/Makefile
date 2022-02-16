@@ -130,6 +130,30 @@ SimpleCpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/build
 .PHONY : SimpleCpp/fast
 
+src/Ex1/game_functions.o: src/Ex1/game_functions.cpp.o
+.PHONY : src/Ex1/game_functions.o
+
+# target to build an object file
+src/Ex1/game_functions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/Ex1/game_functions.cpp.o
+.PHONY : src/Ex1/game_functions.cpp.o
+
+src/Ex1/game_functions.i: src/Ex1/game_functions.cpp.i
+.PHONY : src/Ex1/game_functions.i
+
+# target to preprocess a source file
+src/Ex1/game_functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/Ex1/game_functions.cpp.i
+.PHONY : src/Ex1/game_functions.cpp.i
+
+src/Ex1/game_functions.s: src/Ex1/game_functions.cpp.s
+.PHONY : src/Ex1/game_functions.s
+
+# target to generate assembly for a file
+src/Ex1/game_functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/Ex1/game_functions.cpp.s
+.PHONY : src/Ex1/game_functions.cpp.s
+
 src/Ex1/main.o: src/Ex1/main.cpp.o
 .PHONY : src/Ex1/main.o
 
@@ -163,6 +187,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SimpleCpp"
+	@echo "... src/Ex1/game_functions.o"
+	@echo "... src/Ex1/game_functions.i"
+	@echo "... src/Ex1/game_functions.s"
 	@echo "... src/Ex1/main.o"
 	@echo "... src/Ex1/main.i"
 	@echo "... src/Ex1/main.s"

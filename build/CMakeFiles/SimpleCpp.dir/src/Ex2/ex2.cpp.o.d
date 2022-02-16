@@ -1,5 +1,5 @@
-CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.o: \
-  /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/src/Ex1/main.cpp \
+CMakeFiles/SimpleCpp.dir/src/Ex2/ex2.cpp.o: \
+  /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/src/Ex2/ex2.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/pthread.h \
@@ -236,5 +236,4 @@ CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/numeric \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/vector \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/src/Ex1/game_functions.hpp
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__split_buffer

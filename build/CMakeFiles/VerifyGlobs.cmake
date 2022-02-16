@@ -5,6 +5,8 @@ cmake_policy(SET CMP0009 NEW)
 # MY_SOURCES at CMakeLists.txt:19 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/src/*")
 set(OLD_GLOB
+  "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/src/Ex1/game_functions.cpp"
+  "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/src/Ex1/game_functions.hpp"
   "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/src/Ex1/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

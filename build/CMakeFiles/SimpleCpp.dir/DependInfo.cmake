@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/src/Ex1/game_functions.cpp" "CMakeFiles/SimpleCpp.dir/src/Ex1/game_functions.cpp.o" "gcc" "CMakeFiles/SimpleCpp.dir/src/Ex1/game_functions.cpp.o.d"
   "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/src/Ex1/main.cpp" "CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.o" "gcc" "CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.o.d"
   )
 
