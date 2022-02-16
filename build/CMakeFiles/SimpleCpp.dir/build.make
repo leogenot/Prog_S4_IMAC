@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre"
+CMAKE_SOURCE_DIR = /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/build"
+CMAKE_BINARY_DIR = /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SimpleCpp.dir/depend.make
@@ -69,31 +69,31 @@ include CMakeFiles/SimpleCpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SimpleCpp.dir/flags.make
 
-CMakeFiles/SimpleCpp.dir/src/main.cpp.o: CMakeFiles/SimpleCpp.dir/flags.make
-CMakeFiles/SimpleCpp.dir/src/main.cpp.o: ../src/main.cpp
-CMakeFiles/SimpleCpp.dir/src/main.cpp.o: CMakeFiles/SimpleCpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SimpleCpp.dir/src/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleCpp.dir/src/main.cpp.o -MF CMakeFiles/SimpleCpp.dir/src/main.cpp.o.d -o CMakeFiles/SimpleCpp.dir/src/main.cpp.o -c "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/src/main.cpp"
+CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.o: CMakeFiles/SimpleCpp.dir/flags.make
+CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.o: ../src/Ex1/main.cpp
+CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.o: CMakeFiles/SimpleCpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.o -MF CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.o.d -o CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.o -c /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/src/Ex1/main.cpp
 
-CMakeFiles/SimpleCpp.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimpleCpp.dir/src/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/src/main.cpp" > CMakeFiles/SimpleCpp.dir/src/main.cpp.i
+CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/src/Ex1/main.cpp > CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.i
 
-CMakeFiles/SimpleCpp.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleCpp.dir/src/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/src/main.cpp" -o CMakeFiles/SimpleCpp.dir/src/main.cpp.s
+CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/src/Ex1/main.cpp -o CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.s
 
 # Object files for target SimpleCpp
 SimpleCpp_OBJECTS = \
-"CMakeFiles/SimpleCpp.dir/src/main.cpp.o"
+"CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.o"
 
 # External object files for target SimpleCpp
 SimpleCpp_EXTERNAL_OBJECTS =
 
-../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/src/main.cpp.o
+../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.o
 ../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/build.make
 ../bin/Debug/SimpleCpp: CMakeFiles/SimpleCpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/Debug/SimpleCpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/Debug/SimpleCpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SimpleCpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -105,6 +105,6 @@ CMakeFiles/SimpleCpp.dir/clean:
 .PHONY : CMakeFiles/SimpleCpp.dir/clean
 
 CMakeFiles/SimpleCpp.dir/depend:
-	cd "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre" "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre" "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/build" "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/build" "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/build/CMakeFiles/SimpleCpp.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build/CMakeFiles/SimpleCpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SimpleCpp.dir/depend
 

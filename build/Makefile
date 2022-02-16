@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre"
+CMAKE_SOURCE_DIR = /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/build"
+CMAKE_BINARY_DIR = /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/build/CMakeFiles" "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build/CMakeFiles /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -113,7 +113,7 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/build/CMakeFiles/VerifyGlobs.cmake"
+	$(CMAKE_COMMAND) -P /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -130,29 +130,29 @@ SimpleCpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/build
 .PHONY : SimpleCpp/fast
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src/Ex1/main.o: src/Ex1/main.cpp.o
+.PHONY : src/Ex1/main.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/Ex1/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.o
+.PHONY : src/Ex1/main.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/Ex1/main.i: src/Ex1/main.cpp.i
+.PHONY : src/Ex1/main.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/Ex1/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.i
+.PHONY : src/Ex1/main.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/Ex1/main.s: src/Ex1/main.cpp.s
+.PHONY : src/Ex1/main.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/Ex1/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.s
+.PHONY : src/Ex1/main.cpp.s
 
 # Help Target
 help:
@@ -163,9 +163,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SimpleCpp"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/Ex1/main.o"
+	@echo "... src/Ex1/main.i"
+	@echo "... src/Ex1/main.s"
 .PHONY : help
 
 
@@ -177,7 +177,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/build/CMakeFiles/VerifyGlobs.cmake"
+	$(CMAKE_COMMAND) -P /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
