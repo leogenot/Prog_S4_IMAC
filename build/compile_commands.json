@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/build",
+  "command": "/usr/bin/clang++  -I\"/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/src\" -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Werror -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++17 -o CMakeFiles/SimpleCpp.dir/src/main.cpp.o -c \"/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/src/main.cpp\"",
+  "file": "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/src/main.cpp"
+}
+]

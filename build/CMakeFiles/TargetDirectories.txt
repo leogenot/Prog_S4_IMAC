@@ -1,0 +1,3 @@
+/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/build/CMakeFiles/rebuild_cache.dir
+/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/build/CMakeFiles/edit_cache.dir
+/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Sans titre/build/CMakeFiles/SimpleCpp.dir
