@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC
+CMAKE_SOURCE_DIR = /Users/leogenot/Downloads/Simple-Glimac-Setup-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build
+CMAKE_BINARY_DIR = /Users/leogenot/Downloads/Simple-Glimac-Setup-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build/CMakeFiles /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leogenot/Downloads/Simple-Glimac-Setup-main/build/CMakeFiles /Users/leogenot/Downloads/Simple-Glimac-Setup-main/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leogenot/Downloads/Simple-Glimac-Setup-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -113,70 +113,366 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/leogenot/Downloads/Simple-Glimac-Setup-main/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SimpleCpp
+# Target rules for targets named TP9_exe
 
 # Build rule for target.
-SimpleCpp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SimpleCpp
-.PHONY : SimpleCpp
+TP9_exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TP9_exe
+.PHONY : TP9_exe
 
 # fast build rule for target.
-SimpleCpp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/build
-.PHONY : SimpleCpp/fast
+TP9_exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP9_exe.dir/build.make CMakeFiles/TP9_exe.dir/build
+.PHONY : TP9_exe/fast
 
-src/Ex1/game_functions.o: src/Ex1/game_functions.cpp.o
-.PHONY : src/Ex1/game_functions.o
+#=============================================================================
+# Target rules for targets named TP8_exe
+
+# Build rule for target.
+TP8_exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TP8_exe
+.PHONY : TP8_exe
+
+# fast build rule for target.
+TP8_exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP8_exe.dir/build.make CMakeFiles/TP8_exe.dir/build
+.PHONY : TP8_exe/fast
+
+#=============================================================================
+# Target rules for targets named TP5_exe
+
+# Build rule for target.
+TP5_exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TP5_exe
+.PHONY : TP5_exe
+
+# fast build rule for target.
+TP5_exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP5_exe.dir/build.make CMakeFiles/TP5_exe.dir/build
+.PHONY : TP5_exe/fast
+
+#=============================================================================
+# Target rules for targets named TP7_exe
+
+# Build rule for target.
+TP7_exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TP7_exe
+.PHONY : TP7_exe
+
+# fast build rule for target.
+TP7_exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP7_exe.dir/build.make CMakeFiles/TP7_exe.dir/build
+.PHONY : TP7_exe/fast
+
+#=============================================================================
+# Target rules for targets named TP4_exe
+
+# Build rule for target.
+TP4_exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TP4_exe
+.PHONY : TP4_exe
+
+# fast build rule for target.
+TP4_exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP4_exe.dir/build.make CMakeFiles/TP4_exe.dir/build
+.PHONY : TP4_exe/fast
+
+#=============================================================================
+# Target rules for targets named TP3_exe
+
+# Build rule for target.
+TP3_exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TP3_exe
+.PHONY : TP3_exe
+
+# fast build rule for target.
+TP3_exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP3_exe.dir/build.make CMakeFiles/TP3_exe.dir/build
+.PHONY : TP3_exe/fast
+
+#=============================================================================
+# Target rules for targets named TP2_exe
+
+# Build rule for target.
+TP2_exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TP2_exe
+.PHONY : TP2_exe
+
+# fast build rule for target.
+TP2_exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2_exe.dir/build.make CMakeFiles/TP2_exe.dir/build
+.PHONY : TP2_exe/fast
+
+#=============================================================================
+# Target rules for targets named TP6_exe
+
+# Build rule for target.
+TP6_exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TP6_exe
+.PHONY : TP6_exe
+
+# fast build rule for target.
+TP6_exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP6_exe.dir/build.make CMakeFiles/TP6_exe.dir/build
+.PHONY : TP6_exe/fast
+
+#=============================================================================
+# Target rules for targets named TP1_exe
+
+# Build rule for target.
+TP1_exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TP1_exe
+.PHONY : TP1_exe
+
+# fast build rule for target.
+TP1_exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP1_exe.dir/build.make CMakeFiles/TP1_exe.dir/build
+.PHONY : TP1_exe/fast
+
+TP1/game_functions.o: TP1/game_functions.cpp.o
+.PHONY : TP1/game_functions.o
 
 # target to build an object file
-src/Ex1/game_functions.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/Ex1/game_functions.cpp.o
-.PHONY : src/Ex1/game_functions.cpp.o
+TP1/game_functions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP1_exe.dir/build.make CMakeFiles/TP1_exe.dir/TP1/game_functions.cpp.o
+.PHONY : TP1/game_functions.cpp.o
 
-src/Ex1/game_functions.i: src/Ex1/game_functions.cpp.i
-.PHONY : src/Ex1/game_functions.i
+TP1/game_functions.i: TP1/game_functions.cpp.i
+.PHONY : TP1/game_functions.i
 
 # target to preprocess a source file
-src/Ex1/game_functions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/Ex1/game_functions.cpp.i
-.PHONY : src/Ex1/game_functions.cpp.i
+TP1/game_functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP1_exe.dir/build.make CMakeFiles/TP1_exe.dir/TP1/game_functions.cpp.i
+.PHONY : TP1/game_functions.cpp.i
 
-src/Ex1/game_functions.s: src/Ex1/game_functions.cpp.s
-.PHONY : src/Ex1/game_functions.s
+TP1/game_functions.s: TP1/game_functions.cpp.s
+.PHONY : TP1/game_functions.s
 
 # target to generate assembly for a file
-src/Ex1/game_functions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/Ex1/game_functions.cpp.s
-.PHONY : src/Ex1/game_functions.cpp.s
+TP1/game_functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP1_exe.dir/build.make CMakeFiles/TP1_exe.dir/TP1/game_functions.cpp.s
+.PHONY : TP1/game_functions.cpp.s
 
-src/Ex1/main.o: src/Ex1/main.cpp.o
-.PHONY : src/Ex1/main.o
+TP1/main.o: TP1/main.cpp.o
+.PHONY : TP1/main.o
 
 # target to build an object file
-src/Ex1/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.o
-.PHONY : src/Ex1/main.cpp.o
+TP1/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP1_exe.dir/build.make CMakeFiles/TP1_exe.dir/TP1/main.cpp.o
+.PHONY : TP1/main.cpp.o
 
-src/Ex1/main.i: src/Ex1/main.cpp.i
-.PHONY : src/Ex1/main.i
+TP1/main.i: TP1/main.cpp.i
+.PHONY : TP1/main.i
 
 # target to preprocess a source file
-src/Ex1/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.i
-.PHONY : src/Ex1/main.cpp.i
+TP1/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP1_exe.dir/build.make CMakeFiles/TP1_exe.dir/TP1/main.cpp.i
+.PHONY : TP1/main.cpp.i
 
-src/Ex1/main.s: src/Ex1/main.cpp.s
-.PHONY : src/Ex1/main.s
+TP1/main.s: TP1/main.cpp.s
+.PHONY : TP1/main.s
 
 # target to generate assembly for a file
-src/Ex1/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleCpp.dir/build.make CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.s
-.PHONY : src/Ex1/main.cpp.s
+TP1/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP1_exe.dir/build.make CMakeFiles/TP1_exe.dir/TP1/main.cpp.s
+.PHONY : TP1/main.cpp.s
+
+TP2/main.o: TP2/main.cpp.o
+.PHONY : TP2/main.o
+
+# target to build an object file
+TP2/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2_exe.dir/build.make CMakeFiles/TP2_exe.dir/TP2/main.cpp.o
+.PHONY : TP2/main.cpp.o
+
+TP2/main.i: TP2/main.cpp.i
+.PHONY : TP2/main.i
+
+# target to preprocess a source file
+TP2/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2_exe.dir/build.make CMakeFiles/TP2_exe.dir/TP2/main.cpp.i
+.PHONY : TP2/main.cpp.i
+
+TP2/main.s: TP2/main.cpp.s
+.PHONY : TP2/main.s
+
+# target to generate assembly for a file
+TP2/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP2_exe.dir/build.make CMakeFiles/TP2_exe.dir/TP2/main.cpp.s
+.PHONY : TP2/main.cpp.s
+
+TP3/main.o: TP3/main.cpp.o
+.PHONY : TP3/main.o
+
+# target to build an object file
+TP3/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP3_exe.dir/build.make CMakeFiles/TP3_exe.dir/TP3/main.cpp.o
+.PHONY : TP3/main.cpp.o
+
+TP3/main.i: TP3/main.cpp.i
+.PHONY : TP3/main.i
+
+# target to preprocess a source file
+TP3/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP3_exe.dir/build.make CMakeFiles/TP3_exe.dir/TP3/main.cpp.i
+.PHONY : TP3/main.cpp.i
+
+TP3/main.s: TP3/main.cpp.s
+.PHONY : TP3/main.s
+
+# target to generate assembly for a file
+TP3/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP3_exe.dir/build.make CMakeFiles/TP3_exe.dir/TP3/main.cpp.s
+.PHONY : TP3/main.cpp.s
+
+TP4/main.o: TP4/main.cpp.o
+.PHONY : TP4/main.o
+
+# target to build an object file
+TP4/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP4_exe.dir/build.make CMakeFiles/TP4_exe.dir/TP4/main.cpp.o
+.PHONY : TP4/main.cpp.o
+
+TP4/main.i: TP4/main.cpp.i
+.PHONY : TP4/main.i
+
+# target to preprocess a source file
+TP4/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP4_exe.dir/build.make CMakeFiles/TP4_exe.dir/TP4/main.cpp.i
+.PHONY : TP4/main.cpp.i
+
+TP4/main.s: TP4/main.cpp.s
+.PHONY : TP4/main.s
+
+# target to generate assembly for a file
+TP4/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP4_exe.dir/build.make CMakeFiles/TP4_exe.dir/TP4/main.cpp.s
+.PHONY : TP4/main.cpp.s
+
+TP5/main.o: TP5/main.cpp.o
+.PHONY : TP5/main.o
+
+# target to build an object file
+TP5/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP5_exe.dir/build.make CMakeFiles/TP5_exe.dir/TP5/main.cpp.o
+.PHONY : TP5/main.cpp.o
+
+TP5/main.i: TP5/main.cpp.i
+.PHONY : TP5/main.i
+
+# target to preprocess a source file
+TP5/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP5_exe.dir/build.make CMakeFiles/TP5_exe.dir/TP5/main.cpp.i
+.PHONY : TP5/main.cpp.i
+
+TP5/main.s: TP5/main.cpp.s
+.PHONY : TP5/main.s
+
+# target to generate assembly for a file
+TP5/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP5_exe.dir/build.make CMakeFiles/TP5_exe.dir/TP5/main.cpp.s
+.PHONY : TP5/main.cpp.s
+
+TP6/main.o: TP6/main.cpp.o
+.PHONY : TP6/main.o
+
+# target to build an object file
+TP6/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP6_exe.dir/build.make CMakeFiles/TP6_exe.dir/TP6/main.cpp.o
+.PHONY : TP6/main.cpp.o
+
+TP6/main.i: TP6/main.cpp.i
+.PHONY : TP6/main.i
+
+# target to preprocess a source file
+TP6/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP6_exe.dir/build.make CMakeFiles/TP6_exe.dir/TP6/main.cpp.i
+.PHONY : TP6/main.cpp.i
+
+TP6/main.s: TP6/main.cpp.s
+.PHONY : TP6/main.s
+
+# target to generate assembly for a file
+TP6/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP6_exe.dir/build.make CMakeFiles/TP6_exe.dir/TP6/main.cpp.s
+.PHONY : TP6/main.cpp.s
+
+TP7/main.o: TP7/main.cpp.o
+.PHONY : TP7/main.o
+
+# target to build an object file
+TP7/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP7_exe.dir/build.make CMakeFiles/TP7_exe.dir/TP7/main.cpp.o
+.PHONY : TP7/main.cpp.o
+
+TP7/main.i: TP7/main.cpp.i
+.PHONY : TP7/main.i
+
+# target to preprocess a source file
+TP7/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP7_exe.dir/build.make CMakeFiles/TP7_exe.dir/TP7/main.cpp.i
+.PHONY : TP7/main.cpp.i
+
+TP7/main.s: TP7/main.cpp.s
+.PHONY : TP7/main.s
+
+# target to generate assembly for a file
+TP7/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP7_exe.dir/build.make CMakeFiles/TP7_exe.dir/TP7/main.cpp.s
+.PHONY : TP7/main.cpp.s
+
+TP8/main.o: TP8/main.cpp.o
+.PHONY : TP8/main.o
+
+# target to build an object file
+TP8/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP8_exe.dir/build.make CMakeFiles/TP8_exe.dir/TP8/main.cpp.o
+.PHONY : TP8/main.cpp.o
+
+TP8/main.i: TP8/main.cpp.i
+.PHONY : TP8/main.i
+
+# target to preprocess a source file
+TP8/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP8_exe.dir/build.make CMakeFiles/TP8_exe.dir/TP8/main.cpp.i
+.PHONY : TP8/main.cpp.i
+
+TP8/main.s: TP8/main.cpp.s
+.PHONY : TP8/main.s
+
+# target to generate assembly for a file
+TP8/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP8_exe.dir/build.make CMakeFiles/TP8_exe.dir/TP8/main.cpp.s
+.PHONY : TP8/main.cpp.s
+
+TP9/main.o: TP9/main.cpp.o
+.PHONY : TP9/main.o
+
+# target to build an object file
+TP9/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP9_exe.dir/build.make CMakeFiles/TP9_exe.dir/TP9/main.cpp.o
+.PHONY : TP9/main.cpp.o
+
+TP9/main.i: TP9/main.cpp.i
+.PHONY : TP9/main.i
+
+# target to preprocess a source file
+TP9/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP9_exe.dir/build.make CMakeFiles/TP9_exe.dir/TP9/main.cpp.i
+.PHONY : TP9/main.cpp.i
+
+TP9/main.s: TP9/main.cpp.s
+.PHONY : TP9/main.s
+
+# target to generate assembly for a file
+TP9/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TP9_exe.dir/build.make CMakeFiles/TP9_exe.dir/TP9/main.cpp.s
+.PHONY : TP9/main.cpp.s
 
 # Help Target
 help:
@@ -186,13 +482,45 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... SimpleCpp"
-	@echo "... src/Ex1/game_functions.o"
-	@echo "... src/Ex1/game_functions.i"
-	@echo "... src/Ex1/game_functions.s"
-	@echo "... src/Ex1/main.o"
-	@echo "... src/Ex1/main.i"
-	@echo "... src/Ex1/main.s"
+	@echo "... TP1_exe"
+	@echo "... TP2_exe"
+	@echo "... TP3_exe"
+	@echo "... TP4_exe"
+	@echo "... TP5_exe"
+	@echo "... TP6_exe"
+	@echo "... TP7_exe"
+	@echo "... TP8_exe"
+	@echo "... TP9_exe"
+	@echo "... TP1/game_functions.o"
+	@echo "... TP1/game_functions.i"
+	@echo "... TP1/game_functions.s"
+	@echo "... TP1/main.o"
+	@echo "... TP1/main.i"
+	@echo "... TP1/main.s"
+	@echo "... TP2/main.o"
+	@echo "... TP2/main.i"
+	@echo "... TP2/main.s"
+	@echo "... TP3/main.o"
+	@echo "... TP3/main.i"
+	@echo "... TP3/main.s"
+	@echo "... TP4/main.o"
+	@echo "... TP4/main.i"
+	@echo "... TP4/main.s"
+	@echo "... TP5/main.o"
+	@echo "... TP5/main.i"
+	@echo "... TP5/main.s"
+	@echo "... TP6/main.o"
+	@echo "... TP6/main.i"
+	@echo "... TP6/main.s"
+	@echo "... TP7/main.o"
+	@echo "... TP7/main.i"
+	@echo "... TP7/main.s"
+	@echo "... TP8/main.o"
+	@echo "... TP8/main.i"
+	@echo "... TP8/main.s"
+	@echo "... TP9/main.o"
+	@echo "... TP9/main.i"
+	@echo "... TP9/main.s"
 .PHONY : help
 
 
@@ -204,7 +532,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/leogenot/Downloads/Simple-Glimac-Setup-main/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

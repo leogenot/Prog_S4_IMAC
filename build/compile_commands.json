@@ -1,12 +1,52 @@
 [
 {
-  "directory": "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build",
-  "command": "/usr/bin/clang++  -I/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/src -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Werror -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++17 -o CMakeFiles/SimpleCpp.dir/src/Ex1/game_functions.cpp.o -c /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/src/Ex1/game_functions.cpp",
-  "file": "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/src/Ex1/game_functions.cpp"
+  "directory": "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/build",
+  "command": "/usr/bin/clang++  -I/Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP9 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++11 -o CMakeFiles/TP9_exe.dir/TP9/main.cpp.o -c /Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP9/main.cpp",
+  "file": "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP9/main.cpp"
 },
 {
-  "directory": "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build",
-  "command": "/usr/bin/clang++  -I/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/src -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Werror -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++17 -o CMakeFiles/SimpleCpp.dir/src/Ex1/main.cpp.o -c /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/src/Ex1/main.cpp",
-  "file": "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/src/Ex1/main.cpp"
+  "directory": "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/build",
+  "command": "/usr/bin/clang++  -I/Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP8 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++11 -o CMakeFiles/TP8_exe.dir/TP8/main.cpp.o -c /Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP8/main.cpp",
+  "file": "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP8/main.cpp"
+},
+{
+  "directory": "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/build",
+  "command": "/usr/bin/clang++  -I/Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP5 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++11 -o CMakeFiles/TP5_exe.dir/TP5/main.cpp.o -c /Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP5/main.cpp",
+  "file": "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP5/main.cpp"
+},
+{
+  "directory": "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/build",
+  "command": "/usr/bin/clang++  -I/Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP7 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++11 -o CMakeFiles/TP7_exe.dir/TP7/main.cpp.o -c /Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP7/main.cpp",
+  "file": "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP7/main.cpp"
+},
+{
+  "directory": "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/build",
+  "command": "/usr/bin/clang++  -I/Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP4 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++11 -o CMakeFiles/TP4_exe.dir/TP4/main.cpp.o -c /Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP4/main.cpp",
+  "file": "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP4/main.cpp"
+},
+{
+  "directory": "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/build",
+  "command": "/usr/bin/clang++  -I/Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP3 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++11 -o CMakeFiles/TP3_exe.dir/TP3/main.cpp.o -c /Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP3/main.cpp",
+  "file": "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP3/main.cpp"
+},
+{
+  "directory": "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/build",
+  "command": "/usr/bin/clang++  -I/Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP2 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++11 -o CMakeFiles/TP2_exe.dir/TP2/main.cpp.o -c /Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP2/main.cpp",
+  "file": "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP2/main.cpp"
+},
+{
+  "directory": "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/build",
+  "command": "/usr/bin/clang++  -I/Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP6 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++11 -o CMakeFiles/TP6_exe.dir/TP6/main.cpp.o -c /Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP6/main.cpp",
+  "file": "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP6/main.cpp"
+},
+{
+  "directory": "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/build",
+  "command": "/usr/bin/clang++  -I/Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP1 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++11 -o CMakeFiles/TP1_exe.dir/TP1/game_functions.cpp.o -c /Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP1/game_functions.cpp",
+  "file": "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP1/game_functions.cpp"
+},
+{
+  "directory": "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/build",
+  "command": "/usr/bin/clang++  -I/Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP1 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -std=gnu++11 -o CMakeFiles/TP1_exe.dir/TP1/main.cpp.o -c /Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP1/main.cpp",
+  "file": "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/TP1/main.cpp"
 }
 ]

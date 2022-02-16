@@ -1,4 +1,4 @@
-# Install script for directory: /Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC
+# Install script for directory: /Users/leogenot/Downloads/Simple-Glimac-Setup-main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/leogenot/Documents/IMAC/Semestre3/Prog_c/Prog_S4_IMAC/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/leogenot/Downloads/Simple-Glimac-Setup-main/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
