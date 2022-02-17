@@ -1,8 +1,8 @@
 #include <iostream>
 #include <random>
-#include "include/game_functions.hpp"
+#include "include/menu.h"
 
 int main()
 {
-    play_guess_the_number();
+    show_menu();
 }
