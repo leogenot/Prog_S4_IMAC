@@ -24,6 +24,10 @@ function(setup_tp TP_NUMBER)
     file(GLOB_RECURSE MY_SOURCES CONFIGURE_DEPENDS ${TP_NUMBER}/*)
     target_sources(${TARGET_NAME} PRIVATE ${MY_SOURCES})
 
+    # Add the p6 library
+    add_subdirectory(p6)
+    target_link_libraries(${TARGET_NAME} PRIVATE p6::p6) 
+
 
 endfunction(setup_tp)
 
