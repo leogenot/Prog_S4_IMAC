@@ -3,3 +3,6 @@ bin/
 .vscode/settings.json
 bin/Debug/TP1_exe
 .DS_Store
+bin/Debug/TP1_exe
+.DS_Store
+.vscode
