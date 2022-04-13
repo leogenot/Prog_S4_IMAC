@@ -3,14 +3,33 @@
 #include "include/menu.h"
 #include <p6/p6.h>
 
+struct SquareIndex {
+    int x;
+    int y;
+};
+
+float square_radius(int size)
+{
+    return 1.f / size;
+}
+
+glm::vec2 square_index_position(SquareIndex index, int board_size)
+ {
+    auto _index = glm::vec2{index.x,index.y};
+    return p6::map(_index,glm::vec2{0.f}, glm::vec2{static_cast<float>(board_size)},glm::vec2{-1.f}, glm::vec2{1.f});
+ }
+
+void draw_square(SquareIndex index, int board_size, p6::Context& ctx)
+ {
+     ctx.square(p6::BottomLeftCorner{square_index_position(index, board_size)},
+                p6::Radius{square_radius(board_size)});
+ }
+
 void draw_board(int size, p6::Context& ctx)
  {
      for (int x = 0; x < size; ++x) {
          for (int y = 0; y < size; ++y) {
-             ctx.square(p6::BottomLeftCorner{p6::map(glm::vec2{x, y},
-                                                     glm::vec2{0.f}, glm::vec2{static_cast <float> (size)},
-                                                     glm::vec2{-1.f}, glm::vec2{1.f})},
-                        p6::Radius{1.f / size});
+             draw_square({x,y}, size, ctx);
          }
      }
  }
