@@ -21,6 +21,12 @@ glm::vec2 square_index_position(SquareIndex index, int board_size)
     return p6::map(_index, glm::vec2{0.f}, glm::vec2{static_cast<float>(board_size)}, glm::vec2{-1.f}, glm::vec2{1.f});
 }
 
+glm::vec2 square_center(SquareIndex index, int board_size)
+ {
+     return square_index_position(index, board_size) + square_radius(board_size);
+ }
+
+
 void draw_square(SquareIndex index, int board_size, p6::Context &ctx)
 {
     ctx.square(p6::BottomLeftCorner{square_index_position(index, board_size)},
@@ -38,7 +44,7 @@ void draw_board(int size, p6::Context &ctx)
     }
 }
 
-std::optional<SquareIndex> cell_hovered_by(glm::vec2 position, int board_size)
+std::optional<SquareIndex> hovered_square(glm::vec2 position, int board_size)
 {
     const auto pos = p6::map(position, glm::vec2{-1.f}, glm::vec2{1.f}, glm::vec2{0.f}, glm::vec2{static_cast<float>(board_size)});
     const auto index = SquareIndex{
@@ -55,6 +61,22 @@ std::optional<SquareIndex> cell_hovered_by(glm::vec2 position, int board_size)
     }
 }
 
+
+void draw_circle(SquareIndex index, int board_size, p6::Context& ctx)
+ {
+     ctx.circle(p6::Center{square_center(index, board_size)},
+                p6::Radius{0.9f * square_radius(board_size)});
+ }
+
+void draw_cross(SquareIndex index, int board_size, p6::Context& ctx)
+ {
+     const auto center   = p6::Center{square_center(index, board_size)};
+     const auto radii    = p6::Radii{glm::vec2{0.5f, 0.5f} * square_radius(board_size)};
+     ctx.rectangle(center, radii);
+ }
+
+
+
 int main()
 {
     // show_menu();
@@ -69,10 +91,10 @@ int main()
         /* ctx.circle(p6::Center{ctx.mouse()},
                    p6::Radius{0.3f}); */
         draw_board(board_size, ctx);
-        const auto hovered_cell = cell_hovered_by(ctx.mouse(), board_size);
+        const auto hovered_cell = hovered_square(ctx.mouse(), board_size);
         if (hovered_cell.has_value())
         {
-            draw_square(*hovered_cell, board_size, ctx);
+            draw_cross(*hovered_cell, board_size, ctx);
         }
     };
     ctx.start();
