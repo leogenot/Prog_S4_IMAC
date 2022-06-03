@@ -68,7 +68,7 @@ All good
 - ***C++ casts:*** Aspecial operator that forces one data type to be converted into another
 - ***Measuring performance:*** optimizing your code executions, you can use dofferent methods of benchmarking
 - ***Precompiled Header:*** helps reducing compilation time of your project
-- ***<random>:*** different functions to use random
+- ***random:*** different functions to use random
 - ***Linked lists***: Horrible and not that useful
 - ***Avoid dead code:*** why leave junk ?
 - ***friend:***  the friend declaration appears in a class body and grants a function or another class access to private and protected members of the class where the friend declaration appears
