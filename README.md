@@ -54,3 +54,31 @@ All good
 - Space out your code: format your code
 
 ## Level 4 : 
+- Watch conferences: other way to add knowledge, cs50 from Harvard are the best ones (in my opinion) 
+- Write libraries: writing generic code can turn into library, makes you wanna work "cleaner"
+- The Command pattern: pattern similar to singleton but with more details and info on what yout want to do
+- Dear ImGui: BEST GUI LIBRARY AND SO EASY TO USE (used it in IMACRun)
+- Designated Initializers: provides a quick way of initialising specific elements in an array and a way of explicitly initialising struct members
+- std::string and std::string_view: new type from c++17, it is a non-owning reference to either a const char* or a std::string (makes things like if its reference)
+- Static site generators: generate websites on the fly like Doxygen for ducumentation
+- Deleted functions: delete functions to prevent them from beeing used. This is mostly used to prevent a type from being copied
+- Type erasure: nables you to use various concrete types through a single generic interface
+- wasm and electron: powerful open source framework that allows development of cross-platform desktop GUI applications
+- Scope guard: idea is to let the destructor of a guard object call a user specified cleanup action at the end of a scope (read: block), unless the scope guard is dismissed
+- C++ casts: Aspecial operator that forces one data type to be converted into another
+- Measuring performance: optimizing your code executions, you can use dofferent methods of benchmarking
+- Precompiled Header: helps reducing compilation time of your project
+- <random>: different functions to use random
+- Linked lists: Horrible and not that useful
+- Avoid dead code: why leave junk ?
+- friend: the friend declaration appears in a class body and grants a function or another class access to private and protected members of the class where the friend declaration appears
+- Pointers vs References: Pointers: A pointer is a variable that holds memory address of another variable. A pointer needs to be dereferenced with * operator to access the memory location it points to. 
+
+References : A reference variable is an alias, that is, another name for an already existing variable. A reference, like a pointer, is also implemented by storing the address of an object. 
+A reference can be thought of as a constant pointer (not to be confused with a pointer to a constant value!) with automatic indirection, i.e the compiler will apply the * operator for you. 
+  
+## Level 5 :
+  
+- Avoid nested namespaces: less namespace for the better to ensure good coprehension of the code ( having two functions named the same in different namespaces is bruh
+- #if defined(): better syntax than #ifdef, easier to use with negative version
+- Trailing return type: the return type of a function template cannot be generalized if the return type depends on the types of the function arguments
